@@ -1,0 +1,176 @@
+body{
+  background-color: #c49464;
+}
+
+
+.container2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  margin-top: 300px;
+  margin-left: 100px;
+  color: aliceblue;
+}
+
+#aboutmepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+}  
+
+
+/*.backgroundpic {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+} */
+
+.topline { 
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Delicious Handrawn', cursive;
+  /*font-family: 'Noto Sans', sans-serif; */
+  gap:80px;
+  margin-left: 800px;
+  margin-top: 15px;
+}
+
+
+
+.ul:hover {
+  cursor: pointer;
+
+}
+
+.middle {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-left: 18%;
+  margin-top: 15%;
+  transform: translate(-50%,-15%);
+  
+  
+}
+
+.middlepic {
+  
+  height: 440px;
+  width: 400px;
+  border-radius: 50px;
+  border: 1px solid #ffffd4;
+  box-shadow: 0 0 30px #ffffd4;
+}
+
+.middlepic:hover {
+  transform: rotate(360deg);
+  transition: all 2s ease;
+}
+
+#quote {
+  position: absolute;
+  display: flex;
+  color: aliceblue;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 35px;
+  margin-top: 550px;
+  width: 700px;
+  margin-left: 250px;
+
+}
+
+.backg {
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  bottom: 1px;
+  right: 1px;
+}
+
+.namejobline {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Delicious Handrawn', cursive;
+  /*font-family: 'Noto Sans', sans-serif; */
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 60px;
+  
+  
+}
+
+.profline {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-left: 500px;
+  margin-top: 170px;
+
+}
+
+.prof {
+  height: 200px;
+  width: 160px;
+  border-radius: 20%;
+  border: 1px solid #ffffd4;
+  box-shadow: 0 0 30px #ffffd4;
+  cursor: pointer;
+} 
+
+.prof:hover {
+  transform: scale(1.3);
+  transition: all 1s ease;
+}
+
+.aboutmeline {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Delicious Handrawn', cursive;
+  /*font-family: 'Noto Sans', sans-serif; */
+  gap:80px;
+  margin-left: 560px;
+  margin-top: 380px;
+}
+
+.aboutme {
+  cursor: pointer;
+}
+
+.profilline {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
